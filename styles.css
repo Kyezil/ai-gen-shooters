@@ -1,0 +1,17 @@
+canvas {
+    display:block;
+}
+  
+#frame {
+    /* Necessary to make sure frame width/height
+    isn't set according to the canvas element */
+    position: absolute;
+    overflow: hidden;
+
+    /* Optional stuff for positioning */
+    top:  50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+}
